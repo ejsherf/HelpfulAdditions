@@ -20,7 +20,6 @@ Commands:
 /playeruuid - gives the UUID of the player it was run by
 
 Events:
-- [ ] Custom Death Message
 - [ ] Message when you Join and Leave a Bed
 - [ ] Message (broadcasted) when some leaves and joins the server (custom)
 - [ ] Message when you respawn
