@@ -2,14 +2,18 @@ package me.ej.ejessentials;
 
 import me.ej.ejessentials.commands.*;
 import me.ej.ejessentials.events.*;
+import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class EJessentials extends JavaPlugin {
-
+    FileConfiguration config = this.getConfig();
     @Override
     public void onEnable() {
         // Plugin startup logic
 System.out.println("HelpfulAdditions by EJ is starting! Hey there friend!");
+        this.saveDefaultConfig();
+        this.getConfig();
+        config.addDefault("DeathMsg", toString());
         getCommand("server").setExecutor(new ServerCMD());
         getCommand("plugininfo").setExecutor(new PluginInfo());
         getCommand("playerUUID").setExecutor(new UUIDcmd());
@@ -20,7 +24,6 @@ System.out.println("HelpfulAdditions by EJ is starting! Hey there friend!");
         getCommand("renderdistance").setExecutor(new RenderDistance());
         getCommand("online").setExecutor(new OnlinePlayers());
         getCommand("serverversion").setExecutor(new ServerVersionCMD());
-        getServer().getPluginManager().registerEvents(new DeathMsg(),this);
         getServer().getPluginManager().registerEvents(new ItemDrop(),this);
         getServer().getPluginManager().registerEvents(new ItemPickup(),this);
     }
