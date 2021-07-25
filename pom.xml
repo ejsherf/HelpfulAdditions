@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.ej</groupId>
-    <artifactId>EJessentials</artifactId>
+    <artifactId>HelpfulAdditions</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 
