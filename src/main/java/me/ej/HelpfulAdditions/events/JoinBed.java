@@ -1,4 +1,4 @@
-package me.ej.ejessentials.events;
+package me.ej.HelpfulAdditions.events;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;

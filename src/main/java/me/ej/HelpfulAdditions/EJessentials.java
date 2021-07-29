@@ -1,7 +1,7 @@
-package me.ej.ejessentials;
+package me.ej.HelpfulAdditions;
 
-import me.ej.ejessentials.commands.*;
-import me.ej.ejessentials.events.*;
+import me.ej.HelpfulAdditions.commands.*;
+import me.ej.HelpfulAdditions.events.*;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 

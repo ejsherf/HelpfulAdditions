@@ -1,6 +1,6 @@
-name: EJessentials
+name: HelpfulAdditions
 version: ${project.version}
-main: me.ej.ejessentials.EJessentials
+main: me.ej.HelpfulAdditions.EJessentials
 api-version: 1.17.1
 authors: [ EJ ]
 description: Important things to have on your server!

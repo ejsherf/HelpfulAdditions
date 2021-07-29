@@ -9,7 +9,7 @@
     <version>0.1</version>
     <packaging>jar</packaging>
 
-    <name>EJessentials</name>
+    <name>HelpfulAdditions</name>
 
     <description>Important things to have on your server!</description>
     <properties>

@@ -1,4 +1,4 @@
-package me.ej.ejessentials.commands;
+package me.ej.HelpfulAdditions.commands;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Server;
