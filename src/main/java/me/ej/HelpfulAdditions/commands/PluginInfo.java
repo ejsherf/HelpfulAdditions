@@ -16,4 +16,6 @@ public class PluginInfo implements CommandExecutor {
                 sender.sendMessage(ChatColor.RED+"Looks like you don't have the permission to run this. This is a mistake. Contact your server administrator.");
             }
         }
-        return false;}}
+        return false;
+
+    }}
