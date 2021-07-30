@@ -10,7 +10,7 @@ public final class EJessentials extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-System.out.println("HelpfulAdditions by EJ is starting! Hey there friend!");
+        System.out.println("HelpfulAdditions by EJ is starting! Hey there friend!");
         this.saveDefaultConfig();
         this.getConfig();
         config.addDefault("DeathMsg", toString());
