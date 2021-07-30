@@ -1,7 +1,7 @@
 name: HelpfulAdditions
 version: ${project.version}
 main: me.ej.HelpfulAdditions.EJessentials
-api-version: 1.17.1
+api-version: 1.17
 authors: [ EJ ]
 description: Important things to have on your server!
 
