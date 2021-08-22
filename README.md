@@ -11,12 +11,6 @@ Commands:
 
 /helpfuladditions - plugin info
 
-/renderdistance - gives the players render distance
-
-/server - tells you the server you are on
-
-/serverversion - tells you the server version of Minecraft
-
 /playeruuid - gives the UUID of the player it was run by
 
 Events:
