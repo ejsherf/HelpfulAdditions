@@ -12,4 +12,4 @@ public class LevelCMD implements CommandExecutor {
             int level = ((Player) sender).getLevel();
             sender.sendMessage(ChatColor.GREEN + "Your level is " + ChatColor.GOLD + level);
         }
-        return false;}}
+        return true;}}

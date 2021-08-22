@@ -13,4 +13,4 @@ public class ArrowsCMD implements CommandExecutor {
             int arrows = ((Player) sender).getArrowsInBody();
             sender.sendMessage(ChatColor.GREEN + "OUCH!!! You have, " + ChatColor.GOLD + arrows + ChatColor.GREEN + " in your body!");
         }
-        return false;}}
+        return true;}}

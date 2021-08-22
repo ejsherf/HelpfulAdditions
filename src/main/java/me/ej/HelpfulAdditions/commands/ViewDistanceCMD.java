@@ -13,4 +13,4 @@ public class ViewDistanceCMD implements CommandExecutor {
             int viewDistance = ((Player) sender).getClientViewDistance();
             sender.sendMessage(ChatColor.GREEN + "Your view distance is " + ChatColor.GOLD + viewDistance);
         }
-        return false;}}
+        return true;}}

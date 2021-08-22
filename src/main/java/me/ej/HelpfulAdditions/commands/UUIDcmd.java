@@ -14,5 +14,5 @@ public class UUIDcmd implements CommandExecutor {
             UUID uniqueId = (((Player) sender).getUniqueId());
             sender.sendMessage(ChatColor.GREEN + "Your UUID is " + ChatColor.GOLD + uniqueId);
         }
-        return false;
+        return true;
     }}
