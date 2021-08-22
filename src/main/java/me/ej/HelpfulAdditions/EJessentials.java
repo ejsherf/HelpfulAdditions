@@ -15,9 +15,11 @@ public final class EJessentials extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new JoinMsg(),this);
         getServer().getPluginManager().registerEvents(new LeaveBed(),this);
         getServer().getPluginManager().registerEvents(new LeaveMsg(),this);
-        getCommand("online").setExecutor(new OnlinePlayers());
         getServer().getPluginManager().registerEvents(new ItemDrop(),this);
         getServer().getPluginManager().registerEvents(new ItemPickup(),this);
+        getCommand("currentlevel").setExecutor(new LevelCMD());
+        getCommand("viewdistance").setExecutor(new ViewDistanceCMD());
+        getCommand("arrows").setExecutor(new ArrowsCMD());
     }
 
     @Override

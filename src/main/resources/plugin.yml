@@ -9,13 +9,19 @@ commands:
   playeruuid:
     description: Gets the players UUID
     usage: /playeruuid
-  online:
-    description: shows online players
-    usage: /online
   helpfuladditions:
     description: Gives the info about plugin
     usage: /helpfuladditions
     permission: helpfuladditions.plugininfo
+  currentlevel:
+    description: Gives the player's level.
+    usage: /currentlevel
+  viewdistance:
+    description: Gives the client view distance.
+    usage: /viewdistance
+  arrows:
+    description: Gives the amount of arrows that are in the players body.
+    usage: /arrows
 permissions:
   helpfuladditions.plugininfo:
     description: Perm node for the /helpfuladditions command.
