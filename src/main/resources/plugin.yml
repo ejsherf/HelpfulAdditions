@@ -12,9 +12,9 @@ commands:
   online:
     description: shows online players
     usage: /online
-  plugininfo:
+  helpfuladditions:
     description: Gives the info about plugin
-    usage: /plugininfo
+    usage: /helpfuladditions
     permission: helpfuladditions.plugininfo
 permissions:
   helpfuladditions.plugininfo:
