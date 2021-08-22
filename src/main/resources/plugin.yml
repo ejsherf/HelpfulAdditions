@@ -6,25 +6,16 @@ authors: [ EJ ]
 description: Important things to have on your server!
 
 commands:
-  server:
-    description: Gives what server you are on!
-    usage: /server
-  helpfuladditions:
-    description: Gives info about the HelpfulAdditions plugin.
-    usage: /plugininfo
-    permission: helpfuladditions.plugininfo
   playeruuid:
     description: Gets the players UUID
     usage: /playeruuid
-  renderdistance:
-    description: Gives players render distance!
-    usage: /renderdistance
-  serverversion:
-    description: gives server version
-    usage: /serverversion
   online:
     description: shows online players
     usage: /online
+  plugininfo:
+    description: Gives the info about plugin
+    usage: /plugininfo
+    permission: helpfuladditions.plugininfo
 permissions:
   helpfuladditions.plugininfo:
     description: Perm node for the /helpfuladditions command.
