@@ -25,4 +25,4 @@ commands:
 permissions:
   helpfuladditions.plugininfo:
     description: Perm node for the /helpfuladditions command.
-    default: not op
+    default: op

@@ -9,7 +9,7 @@ public final class EJessentials extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         System.out.println("HelpfulAdditions by EJ is starting! Hey there friend!");
-        getCommand("plugininfo").setExecutor(new PluginInfo());
+        getCommand("helpfuladditions").setExecutor(new PluginInfo());
         getCommand("playerUUID").setExecutor(new UUIDcmd());
         getServer().getPluginManager().registerEvents(new JoinBed(),this);
         getServer().getPluginManager().registerEvents(new JoinMsg(),this);
